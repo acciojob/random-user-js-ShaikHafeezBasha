@@ -8,7 +8,7 @@ res.then((info) => {
         let ageBtn = document.getElementById('age')
         let emailBtn = document.getElementById('email')
         let phoneBtn = document.getElementById('phone')
-        let getUserBtn = document.getElementById('get')
+        let getUserBtn = document.getElementById('getUser')
         ageBtn.addEventListener('click', () => {
             para.textContent = data.results[0].registered.age;
         })
